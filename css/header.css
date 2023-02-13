@@ -86,6 +86,7 @@ body {
 .header__secondline {
   padding: 20px 0px;
   background-color: #fff;
+  border-bottom: 1px solid #efefef;
 }
 .header__secondline-section {
   display: flex;
@@ -104,13 +105,15 @@ body {
     margin-right: 133px;
   }
 }
-.header__secondline-section-search {
+.header__secondline-section-search-form {
   margin-right: 76px;
+  display: flex;
+  position: relative;
 }
 .header__secondline-section-search-form-button {
-  position: relative;
-  left: 16px;
-  top: 34px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
   z-index: 3;
 }
 .header__secondline-section-search-form-input {
@@ -126,7 +129,7 @@ body {
   margin-right: 37px;
 }
 .header__secondline-section-number-text {
-  color: #232323;
+  color: #000000;
 }
 .header__secondline-section-callback {
   border: 1px solid #f13c6e;
@@ -134,7 +137,54 @@ body {
   padding: 12px 26px;
 }
 .header__secondline-section-callback-text {
-  color: #232323;
+  color: #000000;
+}
+.header__category {
+  padding: 30px 0px;
+  background-color: white;
+}
+.header__category-menu-list {
+  display: flex;
+  justify-content: center;
+}
+.header__category-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.header__category-menu-link {
+  color: #000000;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.page {
+  background-color: #f13c6e;
+}
+.page__super-chair-left-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 308px;
+  justify-content: center;
+  padding: 192px 0px;
+  color: white;
+}
+.page__super-chair-left-block-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.page__super-chair-left-block-text {
+  display: inline-block;
+  padding: 50px 0px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.page__super-chair-left-block-button {
+  padding: 12px 26px;
+  border: 1px solid white;
+  border-radius: 40px;
+  max-width: 170px;
+  background: rgba(254, 254, 254, 0);
+  color: white;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*//*# sourceMappingURL=header.css.map */
