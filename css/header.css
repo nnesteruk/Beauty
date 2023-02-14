@@ -159,6 +159,9 @@ body {
 .page {
   background-color: #f13c6e;
 }
+.page__super-chair {
+  position: relative;
+}
 .page__super-chair-left-block {
   display: flex;
   flex-direction: column;
@@ -180,11 +183,29 @@ body {
 }
 .page__super-chair-left-block-button {
   padding: 12px 26px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 40px;
   max-width: 170px;
   background: rgba(254, 254, 254, 0);
   color: white;
+}
+.page__super-chair-ellipse1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 859px;
+  height: 859px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 0px;
+  left: 320px;
+  z-index: 1;
+}
+.page__super-chair-image {
+  position: absolute;
+  top: 20px;
+  left: 458px;
+  z-index: 3;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*//*# sourceMappingURL=header.css.map */
