@@ -63,6 +63,10 @@ body {
   margin: 0px auto;
 }
 
+.header {
+  position: relative;
+  z-index: 4;
+}
 .header__firstline {
   padding: 16px 0px;
   background-color: #e5e5e5;
@@ -191,20 +195,28 @@ body {
 }
 .page__super-chair-ellipse1 {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 859px;
   height: 859px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-  top: 0px;
+  top: -132px;
   left: 320px;
   z-index: 1;
 }
+.page__super-chair-ellipse2 {
+  position: absolute;
+  width: 677px;
+  height: 677px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 94px;
+  left: 91px;
+  z-index: 2;
+}
 .page__super-chair-image {
   position: absolute;
-  top: 20px;
-  left: 458px;
+  top: 43px;
+  left: 47px;
   z-index: 3;
 }
 
