@@ -177,12 +177,11 @@ body {
 .page__super-chair-left-block-title {
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
 }
 .page__super-chair-left-block-text {
   display: inline-block;
   padding: 50px 0px;
-  line-height: 20px;
+  line-height: 15px;
   font-size: 14px;
 }
 .page__super-chair-left-block-button {
