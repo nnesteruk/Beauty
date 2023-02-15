@@ -139,7 +139,7 @@
         border: 2px solid $white;
         border-radius: 40px;
         max-width: 170px;
-        background: rgba(254, 254, 254, 0);
+        background: transparent;
         color: $white;
         cursor: pointer;
       }
@@ -198,6 +198,15 @@
     justify-content: space-between;
     margin-bottom: 99px;
   }
+
+  &__impuls {
+    height: 358px;
+    margin-bottom: 66px;
+  }
+
+  &__recently {
+    margin-bottom: 80px;
+  }
 }
 
 .item-spec-offer {
@@ -212,9 +221,9 @@
 
   &__text {
     margin: 20px 30px;
-    padding: 0px 5px;
     max-width: 195px;
     font-size: 14px;
+    text-align: center;
     line-height: 20px;
   }
 
@@ -279,7 +288,7 @@
     border-radius: 30px;
     border: 2px solid $white;
     color: $white;
-    background-color: $pink;
+    background-color: transparent;
     cursor: pointer;
   }
 
@@ -287,6 +296,20 @@
     margin-left: 96px;
     font-size: 100px;
     color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.impuls {
+  &__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__img {
+    padding: 35px 65px 35px 60px;
+    background-color: $white;
+    border: 2px solid $gray;
   }
 }
 

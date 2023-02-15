@@ -187,7 +187,7 @@ body {
   border: 2px solid white;
   border-radius: 40px;
   max-width: 170px;
-  background: rgba(254, 254, 254, 0);
+  background: transparent;
   color: white;
   cursor: pointer;
 }
@@ -239,6 +239,13 @@ body {
   justify-content: space-between;
   margin-bottom: 99px;
 }
+.page__impuls {
+  height: 358px;
+  margin-bottom: 66px;
+}
+.page__recently {
+  margin-bottom: 80px;
+}
 
 .item-spec-offer {
   background-color: white;
@@ -252,9 +259,9 @@ body {
 }
 .item-spec-offer__text {
   margin: 20px 30px;
-  padding: 0px 5px;
   max-width: 195px;
   font-size: 14px;
+  text-align: center;
   line-height: 20px;
 }
 .item-spec-offer__price {
@@ -308,13 +315,24 @@ body {
   border-radius: 30px;
   border: 2px solid white;
   color: white;
-  background-color: #f13c6e;
+  background-color: transparent;
   cursor: pointer;
 }
 .content__car {
   margin-left: 96px;
   font-size: 100px;
   color: rgba(255, 255, 255, 0.4);
+}
+
+.impuls__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.impuls__img {
+  padding: 35px 65px 35px 60px;
+  background-color: white;
+  border: 2px solid #efefef;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*//*# sourceMappingURL=header.css.map */
