@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #333333;
+  font-family: "Roboto";
+  font-weight: 400;
+  background: #efefef;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.page__super-chair {
+  background-color: #f13c6e;
+  position: relative;
+}
+.page__super-chair-left-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 308px;
+  justify-content: center;
+  padding: 192px 0px;
+  color: white;
+}
+.page__super-chair-left-block-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.page__super-chair-left-block-text {
+  display: inline-block;
+  padding: 50px 0px;
+  line-height: 15px;
+  font-size: 14px;
+}
+.page__super-chair-left-block-button {
+  padding: 12px 26px;
+  border: 2px solid white;
+  border-radius: 40px;
+  max-width: 170px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.page__super-chair-ellipse1 {
+  position: absolute;
+  width: 859px;
+  height: 859px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: -132px;
+  left: 320px;
+  z-index: 1;
+}
+.page__super-chair-ellipse2 {
+  position: absolute;
+  width: 677px;
+  height: 677px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 94px;
+  left: 91px;
+  z-index: 2;
+}
+.page__super-chair-image {
+  position: absolute;
+  top: 43px;
+  left: 47px;
+  z-index: 3;
+}
+.page__spec-offer-block {
+  position: relative;
+  z-index: 5;
+  padding: 80px 0px 100px;
+  background-color: #efefef;
+}
+.page__spec-offer-block-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.page__spec-offer-block-row {
+  display: flex;
+  justify-content: space-between;
+}
+.page__spec-offer-block-column {
+  margin-top: 38px;
+}
+.page__two-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.page__impuls {
+  height: 358px;
+  margin-bottom: 66px;
+}
+.page__recently {
+  margin-bottom: 80px;
+}
+
+.item-spec-offer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item-spec-offer__image {
+  margin-top: 25px;
+}
+.item-spec-offer__text {
+  margin: 20px 30px;
+  max-width: 195px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+}
+.item-spec-offer__price {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.item-spec-offer__button {
+  margin: 20px 0px 25px;
+}
+.item-spec-offer__buy {
+  padding: 9px 40px;
+  border-radius: 40px;
+  font-size: 14px;
+  background-color: #f13c6e;
+  color: white;
+  cursor: pointer;
+}
+
+.two-blocks__content {
+  padding: 35px 45px 35px 40px;
+  background-color: #f13c6e;
+  display: flex;
+  align-items: center;
+  margin-bottom: 99px;
+}
+
+.content__text {
+  color: white;
+}
+.content__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.content__main-text {
+  margin: 25px 0px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.content__email-input {
+  border-radius: 30px;
+  padding: 9px 25px;
+}
+.content__letter {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 65px;
+}
+.content__button {
+  padding: 9px 28px;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+.content__car {
+  margin-left: 96px;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.impuls__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.impuls__img {
+  padding: 35px 65px 35px 60px;
+  background-color: white;
+  border: 2px solid #efefef;
+}/*# sourceMappingURL=page.css.map */

@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #333333;
+  font-family: "Roboto";
+  font-weight: 400;
+  background: #efefef;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.footer__first-line {
+  background-color: white;
+  border-bottom: 1px solid #efefef;
+}
+
+.first-line__main-block {
+  display: flex;
+  padding: 60px 0px;
+}
+
+.main-block__categories {
+  flex: 0 1 33.333%;
+  margin-right: 30px;
+}
+
+.categories__title {
+  font-weight: 500;
+  line-height: 140.62%;
+  color: #000000;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+
+.menu {
+  padding-top: 25px;
+}
+.menu__list3 {
+  color: #828282;
+}
+.menu__link3 {
+  font-size: 12px;
+  line-height: 28px;
+}/*# sourceMappingURL=footer.css.map */

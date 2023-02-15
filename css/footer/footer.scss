@@ -1,0 +1,45 @@
+@import '../normalize.scss';
+@import '../var/var.scss';
+
+.footer {
+  &__first-line {
+    background-color: $white;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+.first-line {
+  &__main-block {
+    display: flex;
+    padding: 60px 0px;
+  }
+}
+.main-block__categories {
+  flex: 0 1 33.333%;
+  margin-right: 30px;
+}
+
+.categories {
+  &__title {
+    font-weight: 500;
+    line-height: 140.62%;
+    color: $black;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+.menu {
+  padding-top: 25px;
+  &__list3 {
+    color: #828282;
+  }
+
+  &__item3 {
+  }
+
+  &__link3 {
+    font-size: 12px;
+    line-height: 28px;
+  }
+}
