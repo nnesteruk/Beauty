@@ -189,6 +189,7 @@ body {
   max-width: 170px;
   background: rgba(254, 254, 254, 0);
   color: white;
+  cursor: pointer;
 }
 .page__super-chair-ellipse1 {
   position: absolute;
@@ -235,6 +236,7 @@ body {
 }
 .page__two-blocks {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 99px;
 }
 
@@ -269,6 +271,50 @@ body {
   font-size: 14px;
   background-color: #f13c6e;
   color: white;
+  cursor: pointer;
+}
+
+.two-blocks__content {
+  padding: 35px 45px 35px 40px;
+  background-color: #f13c6e;
+  display: flex;
+  align-items: center;
+}
+
+.content__text {
+  color: white;
+}
+.content__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.content__main-text {
+  margin: 25px 0px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.content__email-input {
+  border-radius: 30px;
+  padding: 9px 25px;
+}
+.content__letter {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 65px;
+}
+.content__button {
+  padding: 9px 28px;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: white;
+  background-color: #f13c6e;
+  cursor: pointer;
+}
+.content__car {
+  margin-left: 96px;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*//*# sourceMappingURL=header.css.map */

@@ -141,6 +141,7 @@
         max-width: 170px;
         background: rgba(254, 254, 254, 0);
         color: $white;
+        cursor: pointer;
       }
     }
     &-ellipse1 {
@@ -194,6 +195,7 @@
 
   &__two-blocks {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 99px;
   }
 }
@@ -232,70 +234,60 @@
     font-size: 14px;
     background-color: $pink;
     color: $white;
+    cursor: pointer;
   }
 }
 
 .two-blocks {
-  // .two-blocks__prezents
-
-  &__prezents {
-  }
-
-  // .two-blocks__invitation
-
-  &__invitation {
+  &__content {
+    padding: 35px 45px 35px 40px;
+    background-color: $pink;
+    display: flex;
+    align-items: center;
   }
 }
-.prezents {
-  // .prezents__text
-
+.content {
   &__text {
+    color: $white;
   }
-
-  // .prezents__title
 
   &__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
   }
-
-  // .prezents__main-text
 
   &__main-text {
+    margin: 25px 0px;
+    line-height: 20px;
+    font-size: 14px;
   }
 
-  // .prezents__letter
+  &__email-input {
+    border-radius: 30px;
+    padding: 9px 25px;
+  }
 
   &__letter {
+    font-size: 140px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: 65px;
   }
-}
-.icon-letter {
-}
-.invitation {
-  // .invitation__text
-
-  &__text {
-  }
-
-  // .invitation__title
-
-  &__title {
-  }
-
-  // .invitation__main-text
-
-  &__main-text {
-  }
-
-  // .invitation__button
 
   &__button {
+    padding: 9px 28px;
+    border-radius: 30px;
+    border: 2px solid $white;
+    color: $white;
+    background-color: $pink;
+    cursor: pointer;
   }
 
-  // .invitation__img
-
-  &__img {
+  &__car {
+    margin-left: 96px;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.4);
   }
-}
-.icon-car {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
