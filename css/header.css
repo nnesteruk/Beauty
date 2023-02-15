@@ -160,10 +160,8 @@ body {
   font-weight: 500;
 }
 
-.page {
-  background-color: #f13c6e;
-}
 .page__super-chair {
+  background-color: #f13c6e;
   position: relative;
 }
 .page__super-chair-left-block {
@@ -218,4 +216,58 @@ body {
   left: 47px;
   z-index: 3;
 }
+.page__spec-offer-block {
+  position: relative;
+  z-index: 5;
+  padding: 80px 0px 100px;
+  background-color: #efefef;
+}
+.page__spec-offer-block-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.page__spec-offer-block-row {
+  display: flex;
+  justify-content: space-between;
+}
+.page__spec-offer-block-column {
+  margin-top: 38px;
+}
+.page__two-blocks {
+  display: flex;
+}
+
+.item-spec-offer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item-spec-offer__image {
+  margin-top: 25px;
+}
+.item-spec-offer__text {
+  margin: 20px 30px;
+  padding: 0px 5px;
+  max-width: 195px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.item-spec-offer__price {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.item-spec-offer__button {
+  margin: 20px 0px 25px;
+}
+.item-spec-offer__buy {
+  padding: 9px 40px;
+  border-radius: 40px;
+  font-size: 14px;
+  background-color: #f13c6e;
+  color: white;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------------*//*# sourceMappingURL=header.css.map */
