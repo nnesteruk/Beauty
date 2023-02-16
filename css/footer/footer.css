@@ -67,6 +67,10 @@ body {
   background-color: white;
   border-bottom: 1px solid #efefef;
 }
+.footer__contacts {
+  background-color: white;
+  padding: 38px 0px;
+}
 
 .first-line__main-block {
   display: flex;
@@ -95,4 +99,32 @@ body {
 .menu__link3 {
   font-size: 12px;
   line-height: 28px;
+}
+
+.contacts__icons {
+  display: flex;
+}
+.contacts__youtube {
+  border: 2px solid #f13c6e;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.contacts__vk {
+  border: 2px solid #f13c6e;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.contacts__facebook {
+  border: 2px solid #f13c6e;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.contacts__instagram {
+  border: 2px solid #f13c6e;
+  border-radius: 50%;
+}
+.contacts__adress {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
 }/*# sourceMappingURL=footer.css.map */

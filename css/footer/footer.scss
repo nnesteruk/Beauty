@@ -6,6 +6,10 @@
     background-color: $white;
     border-bottom: 1px solid $gray;
   }
+  &__contacts {
+    background-color: $white;
+    padding: 38px 0px;
+  }
 }
 
 .first-line {
@@ -42,4 +46,57 @@
     font-size: 12px;
     line-height: 28px;
   }
+}
+
+.contacts {
+  &__icons {
+    display: flex;
+  }
+
+  // .contacts__youtube
+
+  &__youtube {
+    border: 2px solid $pink;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+
+  // .contacts__vk
+
+  &__vk {
+    border: 2px solid $pink;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+
+  // .contacts__facebook
+
+  &__facebook {
+    border: 2px solid $pink;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+
+  // .contacts__instagram
+
+  &__instagram {
+    border: 2px solid $pink;
+    border-radius: 50%;
+  }
+
+  // .contacts__adress
+
+  &__adress {
+    font-size: 14px;
+    line-height: 16px;
+    color: $black;
+  }
+
+  // .contacts__callback
+
+  &__callback {
+  }
+}
+
+.number {
 }
