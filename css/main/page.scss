@@ -5,6 +5,7 @@
   &__super-chair {
     background-color: $pink;
     position: relative;
+    overflow: hidden;
     &-left-block {
       display: flex;
       flex-direction: column;

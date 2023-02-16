@@ -118,4 +118,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f13c6e;
+  cursor: pointer;
+}
+.icon:hover {
+  color: white;
+  background-color: #f13c6e;
 }/*# sourceMappingURL=footer.css.map */

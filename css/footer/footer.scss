@@ -51,7 +51,6 @@
 .contacts {
   &__icons {
     display: flex;
-    
   }
 
   &__adress {
@@ -72,6 +71,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: $pink;
+  cursor: pointer;
+  &:hover {
+    color: $white;
+    background-color: $pink;
+  }
 }
 
 .number {

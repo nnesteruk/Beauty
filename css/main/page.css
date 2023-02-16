@@ -66,6 +66,7 @@ body {
 .page__super-chair {
   background-color: #f13c6e;
   position: relative;
+  overflow: hidden;
 }
 .page__super-chair-left-block {
   display: flex;
