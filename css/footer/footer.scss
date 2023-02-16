@@ -51,40 +51,8 @@
 .contacts {
   &__icons {
     display: flex;
+    
   }
-
-  // .contacts__youtube
-
-  &__youtube {
-    border: 2px solid $pink;
-    border-radius: 50%;
-    margin-right: 16px;
-  }
-
-  // .contacts__vk
-
-  &__vk {
-    border: 2px solid $pink;
-    border-radius: 50%;
-    margin-right: 16px;
-  }
-
-  // .contacts__facebook
-
-  &__facebook {
-    border: 2px solid $pink;
-    border-radius: 50%;
-    margin-right: 16px;
-  }
-
-  // .contacts__instagram
-
-  &__instagram {
-    border: 2px solid $pink;
-    border-radius: 50%;
-  }
-
-  // .contacts__adress
 
   &__adress {
     font-size: 14px;
@@ -92,10 +60,18 @@
     color: $black;
   }
 
-  // .contacts__callback
-
   &__callback {
   }
+}
+.icon {
+  border: 2px solid $pink;
+  border-radius: 50%;
+  margin-right: 16px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .number {

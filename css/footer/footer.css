@@ -104,27 +104,18 @@ body {
 .contacts__icons {
   display: flex;
 }
-.contacts__youtube {
-  border: 2px solid #f13c6e;
-  border-radius: 50%;
-  margin-right: 16px;
-}
-.contacts__vk {
-  border: 2px solid #f13c6e;
-  border-radius: 50%;
-  margin-right: 16px;
-}
-.contacts__facebook {
-  border: 2px solid #f13c6e;
-  border-radius: 50%;
-  margin-right: 16px;
-}
-.contacts__instagram {
-  border: 2px solid #f13c6e;
-  border-radius: 50%;
-}
 .contacts__adress {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
+}
+.icon {
+  border: 2px solid #f13c6e;
+  border-radius: 50%;
+  margin-right: 16px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=footer.css.map */
