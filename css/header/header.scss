@@ -46,9 +46,9 @@
         letter-spacing: 0.1em;
         line-height: 42px;
         margin: 0px 172px 0px 20px;
-        @media (min-width: 1072px) {
-          margin-right: 133px;
-        }
+        // @media (min-width: 1072px) {
+        //   margin-right: 133px;
+        // }
       }
 
       &-search-form {
@@ -75,20 +75,23 @@
       }
 
       &-number {
-        margin-right: 37px;
+        margin-right: 40px;
         &-text {
           color: $black;
         }
       }
+    }
+  }
 
-      &-callback {
-        border: 1px solid $pink;
-        border-radius: 40px;
-        padding: 12px 26px;
-        &-text {
-          color: $black;
-        }
-      }
+  .button-callback {
+    border: 1px solid $pink;
+    border-radius: 40px;
+    padding: 12px 26px;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+      background-color: $pink;
+      color: $white;
     }
   }
 
