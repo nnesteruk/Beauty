@@ -1,257 +1,29 @@
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
+.footer {
+  margin: 0px;
 }
-
-ul,
-ol,
-li {
-  list-style: none;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-html,
-body {
-  height: 100%;
-  line-height: 1;
-  font-size: 16px;
-  color: #333333;
-  font-family: "Roboto";
-  font-weight: 400;
-  background: #efefef;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 1920px;
-}
-
-.container {
-  max-width: 1110px;
-  margin: 0px auto;
-}
-
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-ul,
-ol,
-li {
-  list-style: none;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-html,
-body {
-  height: 100%;
-  line-height: 1;
-  font-size: 16px;
-  color: #333333;
-  font-family: "Roboto";
-  font-weight: 400;
-  background: #efefef;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 1920px;
-}
-
-.container {
-  max-width: 1110px;
-  margin: 0px auto;
-}
-
-.header {
-  position: relative;
-  z-index: 4;
-}
-.header__firstline {
-  padding: 16px 0px;
-  background-color: #e5e5e5;
-}
-.header__firstline-menu-list {
-  display: flex;
-  justify-content: center;
-}
-.header__firstline-menu-item:not(:last-child) {
-  margin-right: 30px;
-}
-.header__firstline-menu-link {
-  font-size: 14px;
-  color: inherit;
-  line-height: 16px;
-}
-.header__firstline-menu-link:hover {
-  color: #000;
-  font-weight: 500;
-}
-.header__secondline {
-  padding: 20px 0px;
-  background-color: #fff;
-  border-bottom: 1px solid #efefef;
-}
-.header__secondline-section {
-  display: flex;
-  align-items: center;
-}
-.header__secondline-section-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #f13c6e;
-  letter-spacing: 0.1em;
-  line-height: 42px;
-  margin: 0px 172px 0px 20px;
-}
-@media (min-width: 1072px) {
-  .header__secondline-section-title {
-    margin-right: 133px;
-  }
-}
-.header__secondline-section-search-form {
-  margin-right: 76px;
-  display: flex;
-  position: relative;
-}
-.header__secondline-section-search-form-button {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  z-index: 3;
-}
-.header__secondline-section-search-form-input {
-  position: relative;
-  z-index: 2;
-  background-color: #efefef;
-  width: 250px;
-  height: 40px;
-  border-radius: 40px;
-  padding: 0px 20px 0px 48px;
-}
-.header__secondline-section-number {
-  margin-right: 37px;
-}
-.header__secondline-section-number-text {
-  color: #000000;
-}
-.header .button-callback {
-  border: 1px solid #f13c6e;
-  border-radius: 40px;
-  padding: 12px 26px;
-  background-color: transparent;
-  cursor: pointer;
-}
-.header__category {
-  padding: 30px 0px;
-  background-color: white;
-}
-.header__category-menu-list {
-  display: flex;
-  justify-content: center;
-}
-.header__category-menu-item:not(:last-child) {
-  margin-right: 40px;
-}
-.header__category-menu-link {
-  color: #000000;
-  line-height: 19px;
-  font-weight: 500;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------------------*/
 .footer__first-line {
   background-color: white;
   border-bottom: 1px solid #efefef;
 }
-.footer__contacts {
-  background-color: white;
-  padding: 38px 0px;
-}
-
-.first-line__main-block {
+.footer__category {
   display: flex;
   padding: 60px 0px;
 }
 
-.main-block__categories {
-  flex: 0 1 33.333%;
-  margin-right: 30px;
+.category__block {
+  flex: 0 1 25%;
+  margin-left: 30px;
 }
-
-.categories__title {
+.category__block:first-child {
+  margin-left: 0px;
+}
+.category__title {
   font-weight: 500;
   line-height: 140.62%;
   color: #000000;
   padding-bottom: 30px;
   border-bottom: 1px solid #efefef;
 }
-
 .menu {
   padding-top: 25px;
 }
@@ -291,12 +63,4 @@ body {
 .icon:hover {
   color: white;
   background-color: #f13c6e;
-}
-
-.button-callback {
-  border: 1px solid #f13c6e;
-  border-radius: 40px;
-  padding: 12px 26px;
-  background-color: transparent;
-  cursor: pointer;
 }/*# sourceMappingURL=footer.css.map */

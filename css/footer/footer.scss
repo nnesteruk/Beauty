@@ -1,30 +1,26 @@
-@import '../normalize.scss';
 @import '../var/var.scss';
-@import '../header/header.scss';
 
 .footer {
+  margin: 0px;
   &__first-line {
     background-color: $white;
     border-bottom: 1px solid $gray;
   }
-  &__contacts {
-    background-color: $white;
-    padding: 38px 0px;
-  }
-}
 
-.first-line {
-  &__main-block {
+  &__category {
     display: flex;
     padding: 60px 0px;
   }
 }
-.main-block__categories {
-  flex: 0 1 33.333%;
-  margin-right: 30px;
-}
 
-.categories {
+.category {
+  &__block {
+    flex: 0 1 25%;
+    margin-left: 30px;
+    &:first-child {
+      margin-left: 0px;
+    }
+  }
   &__title {
     font-weight: 500;
     line-height: 140.62%;
@@ -32,15 +28,14 @@
     padding-bottom: 30px;
     border-bottom: 1px solid $gray;
   }
+  &__menu {
+  }
 }
 
 .menu {
   padding-top: 25px;
   &__list3 {
     color: #828282;
-  }
-
-  &__item3 {
   }
 
   &__link3 {
@@ -84,12 +79,12 @@
     background-color: $pink;
   }
 }
-.button-callback {
-  border: 1px solid $pink;
-  border-radius: 40px;
-  padding: 12px 26px;
-  background-color: transparent;
-  cursor: pointer;
-}
+// .button-callback {
+//   border: 1px solid $pink;
+//   border-radius: 40px;
+//   padding: 12px 26px;
+//   background-color: transparent;
+//   cursor: pointer;
+// }
 .number {
 }

@@ -55,18 +55,19 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 1920px;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0px auto;
+  padding: 0px 15px;
 }
 
 .page__super-chair {
   background-color: #f13c6e;
   position: relative;
-  overflow: hidden;
 }
 .page__super-chair-left-block {
   display: flex;
@@ -146,10 +147,6 @@ body {
   height: 358px;
   margin-bottom: 66px;
 }
-.page__recently {
-  margin-bottom: 80px;
-}
-
 .item-spec-offer {
   background-color: white;
   display: flex;
@@ -237,4 +234,4 @@ body {
   padding: 35px 65px 35px 60px;
   background-color: white;
   border: 1px solid #efefef;
-}/*# sourceMappingURL=page.css.map */
+}/*# sourceMappingURL=main.css.map */
