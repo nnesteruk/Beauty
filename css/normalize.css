@@ -59,6 +59,7 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0px auto;
+  padding: 0px 15px;
 }/*# sourceMappingURL=normalize.css.map */

@@ -1,6 +1,5 @@
 @import '../normalize.scss';
 @import '../var/var.scss';
-@import '../header/header.scss';
 
 .footer {
   &__first-line {
@@ -46,6 +45,7 @@
   &__link3 {
     font-size: 12px;
     line-height: 28px;
+    color: $black;
   }
 }
 
@@ -78,18 +78,10 @@
   align-items: center;
   justify-content: center;
   color: $pink;
-  cursor: pointer;
   &:hover {
     color: $white;
     background-color: $pink;
   }
-}
-.button-callback {
-  border: 1px solid $pink;
-  border-radius: 40px;
-  padding: 12px 26px;
-  background-color: transparent;
-  cursor: pointer;
 }
 .number {
 }

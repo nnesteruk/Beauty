@@ -59,8 +59,9 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0px auto;
+  padding: 0px 15px;
 }
 
 .header {
@@ -129,17 +130,6 @@ body {
 }
 .header__secondline-section-number-text {
   color: #000000;
-}
-.header .button-callback {
-  border: 1px solid #f13c6e;
-  border-radius: 40px;
-  padding: 12px 26px;
-  background-color: transparent;
-  cursor: pointer;
-}
-.header .button-callback:hover {
-  background-color: #f13c6e;
-  color: white;
 }
 .header__category {
   padding: 30px 0px;
