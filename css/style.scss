@@ -3,115 +3,133 @@
 
 .header {
   &__firstline {
-    padding: 16px 0px;
-    background-color: #e5e5e5;
+    background-color: $gray;
+    margin: 16px 0px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    &-menu {
-      &-list {
-        display: flex;
-        justify-content: center;
-      }
-      &-item:not(:last-child) {
-        margin-right: 30px;
-      }
-      &-link {
-        font-size: 14px;
-        color: inherit;
-        line-height: 16px;
-        &:hover {
-          color: #000;
-          font-weight: 500;
-        }
+  .menu {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+    &__link {
+      font-size: 14px;
+      color: inherit;
+      line-height: 16px;
+      &:hover {
+        color: #000;
+        font-weight: 500;
       }
     }
   }
+
   &__secondline {
     padding: 20px 0px;
     background-color: #fff;
     border-bottom: 1px solid $gray;
-
-    &-section {
+    &-body {
       display: flex;
       align-items: center;
-
-      &-logo {
-      }
-
-      &-title {
-        font-size: 36px;
-        font-weight: 700;
-        color: $pink;
-        letter-spacing: 0.1em;
-        line-height: 42px;
-        margin: 0px 172px 0px 20px;
-        @media (min-width: 1072px) {
-          margin-right: 133px;
-        }
-      }
-
-      &-search-form {
-        margin-right: 96px;
-        display: flex;
-        position: relative;
-
-        &-button {
-          position: absolute;
-          left: 20px;
-          top: 10px;
-          z-index: 3;
-        }
-
-        &-input {
-          position: relative;
-          z-index: 2;
-          background-color: $gray;
-          width: 250px;
-          height: 40px;
-          border-radius: 40px;
-          padding: 0px 20px 0px 48px;
-        }
-      }
-
-      &-number {
-        margin-right: 40px;
-        &-text {
-          color: $black;
-          &:hover {
-            color: $pink;
-          }
-        }
-      }
     }
   }
+  &-logo {
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: $pink;
+    letter-spacing: 0.1em;
+    line-height: 42px;
+    margin: 0px 172px 0px 20px;
+    @media (min-width: 1072px) {
+      margin-right: 133px;
+    }
+  }
+
+  &__search-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-form {
+    margin-right: 96px;
+    display: flex;
+    position: relative;
+
+    &__button {
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      z-index: 3;
+    }
+
+    &__input {
+      position: relative;
+      z-index: 2;
+      background-color: $gray;
+      width: 250px;
+      height: 40px;
+      border-radius: 40px;
+      padding: 0px 20px 0px 48px;
+    }
+  }
+
+  &__number {
+    margin-right: 40px;
+  }
+  &__button-callback {
+    border-radius: 40px;
+    padding: 12px 26px;
+  }
+
   &__category {
     padding: 30px 0px;
     background-color: $white;
-
-    &-menu-list {
+  }
+  .category-menu {
+    &__list {
       display: flex;
       justify-content: center;
     }
 
-    &-menu-item:not(:last-child) {
+    &__item:not(:last-child) {
       margin-right: 40px;
     }
-    &-menu-link {
+    &__link {
       color: $black;
       line-height: 19px;
-      font-weight: 500;
+      font-size: 16px;
+      &:hover {
+        color: $pink;
+      }
     }
   }
 }
 
 .button-callback {
   border: 1px solid $pink;
-  border-radius: 40px;
-  padding: 12px 26px;
   background-color: transparent;
   cursor: pointer;
   &:hover {
     background-color: $pink;
     color: $white;
+  }
+}
+.number {
+  & a {
+    color: $black;
+    &:hover {
+      color: $pink;
+    }
   }
 }
 
@@ -350,12 +368,12 @@
   }
 }
 
-.menu {
+.menu2 {
   padding-top: 25px;
-  &__list3 {
+  &__list2 {
   }
 
-  &__link3 {
+  &__link2 {
     font-size: 12px;
     line-height: 28px;
     color: #828282;
@@ -365,9 +383,8 @@
 .contacts {
   display: flex;
   align-items: center;
-  //justify-content: space-between;
 
-  &__icons {
+  &__icon {
     display: flex;
   }
 
@@ -376,6 +393,13 @@
     line-height: 16px;
     color: $black;
     margin: 0px 105px 0px 205px;
+  }
+  &__number {
+    margin-right: 40px;
+  }
+  &__button {
+    border-radius: 40px;
+    padding: 12px 26px;
   }
 }
 .icon {
