@@ -428,6 +428,9 @@ body {
   line-height: 28px;
   color: #828282;
 }
+.menu2__link:hover {
+  color: #000000;
+}
 
 .contacts {
   display: flex;

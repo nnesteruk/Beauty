@@ -416,6 +416,9 @@
     font-size: 12px;
     line-height: 28px;
     color: #828282;
+    &:hover {
+      color: $black;
+    }
   }
 }
 
